@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "emerald-tablet-engine"
+version = "0.1.0"
+description = "Universal Imscriptive Grammar compilation of the Emerald Tablet (Tabula Smaragdina)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Unlicense"}
+dependencies = [
+    "networkx",
+    "matplotlib",
+    "numpy>=2.2.6",
+]
+
+[project.scripts]
+et-compile  = "emerald_tablet_engine.compiler:main"
+et-run      = "emerald_tablet_engine.runtime:main"
+et-graph    = "emerald_tablet_engine.callgraph:main"
+et-sections = "emerald_tablet_engine.sectional:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["emerald_tablet_engine"]

@@ -1,0 +1,138 @@
+# Emerald Tablet — ETFF (Emerald Tablet Folio Format)
+# Tabula Smaragdina — Jabir ibn Hayyan recension (~8th c. CE), transmitted via
+# pseudo-Aristotelian Kitab Sirr al-Khaliqa; canonical English: Isaac Newton (1680).
+#
+# Rhetorical token families (structural, not semantic):
+#   tr=truth-seal   an=anchor   as=ascent   ds=descent   lk=linkage   id=identity
+#   sp=separation   un=union    af=affirm   ng=negate    px=paradox   fx=fixing
+#
+# Format: <v{N}> begins versicle N; ;H> lines contain space-separated token sequences.
+#
+# Sections:
+#   proem      v1–v2   — truth declaration and the as-above-so-below axiom
+#   cosmogony  v3–v7   — the one thing and its four elemental parents
+#   praxis     v8–v12  — the work: separate, ascend, receive, attain
+#   closure    v13–v15 — world created, adaptations, Hermes Trismegistus, seal
+
+# ── PROEM (v1–v2) ─────────────────────────────────────────────────────────────
+
+# v1: "'Tis true without lying, certain and most true."
+# Truth seals and affirmations: the initial object is established beyond doubt.
+<v1>
+;H> tr af tr af id tr lk af tr af
+;H> af tr id lk tr af tr id lk af
+;H> tr lk id af tr lk af tr id tr
+
+# v2: "That which is below is like that which is above and that which is above
+#      is like that which is below to do the miracles of only one thing."
+# The correspondence axiom: descent → identity → ascent → paradox (both at once) → union.
+<v2>
+;H> ds id as lk as id ds lk px id
+;H> as id ds lk ds id as lk id px
+;H> id as ds lk un px id lk as ds
+
+# ── COSMOGONY (v3–v7) ─────────────────────────────────────────────────────────
+
+# v3: "And as all things have been and arose from one by the mediation of one..."
+# All things from the one by identity and linkage: the pre-grammatical unity.
+<v3>
+;H> id lk af un id lk tr af id lk
+;H> un lk id af lk un id tr lk af
+;H> lk id un af tr id lk un af id
+
+# v4: "...so all things have their birth from this one thing by adaptation."
+# Adaptation = Frobenius fusion: many things arise from the one by union-composition.
+<v4>
+;H> un lk un id lk un af lk id un
+;H> lk un af id un lk id af un lk
+;H> un id lk un af lk un id lk af
+
+# v5: "The Sun is its father, the Moon its mother..."
+# Dual anchoring: paternal (Sun = EVALT) and maternal (Moon = EVALF) terminal poles.
+<v5>
+;H> an af lk an af an lk af an id
+;H> af an lk id an af lk an af lk
+;H> an lk af an id lk af an lk af
+
+# v6: "...the Wind hath carried it in its belly, the Earth is its nurse."
+# Ascent (Wind = carrier, upward motion) anchored to Earth (nursing = terminal ground).
+<v6>
+;H> as lk as an lk an af as lk id
+;H> an as lk id as an lk af an as
+;H> as an lk af id an as lk an af
+
+# v7: "The father of all perfection in the whole world is here."
+# Universal terminal anchor: the father of Telesma fixes the whole system.
+<v7>
+;H> an af un lk an af fx lk an af
+;H> af an lk un fx an af un id lk
+;H> un an af lk fx id an af un lk
+
+# ── PRAXIS (v8–v12) ───────────────────────────────────────────────────────────
+
+# v8: "Its force or power is entire if it be converted into Earth."
+# Affirmation of power; descent into Earth fixes the force in place.
+<v8>
+;H> af lk ds fx af lk id ds af fx
+;H> lk af ds id fx lk af id fx ds
+;H> ds af lk fx id ds lk af fx id
+
+# v9: "Separate thou the Earth from the Fire, the subtle from the gross
+#      sweetly with great industry."
+# The densest versicle: FSPLIT (sp) dominates as the Frobenius co-multiplication δ.
+# The paradox (px) resolves the separation: subtle and gross stabilize as Both.
+<v9>
+;H> sp lk sp af sp id lk sp af sp
+;H> lk sp af sp id sp lk af sp lk
+;H> sp id sp lk af px sp lk id sp
+;H> sp af sp lk id sp af lk sp px
+
+# v10: "It ascends from the Earth to the Heavens..."
+# Upward movement (as) composes with itself through linkage: iterative ascent.
+<v10>
+;H> as lk as id as lk af as id as
+;H> lk as af as id as lk af id as
+;H> as id lk as af lk as id as lk
+
+# v11: "...and again it descends to the Earth and receives the force of things
+#       superior and inferior."
+# Descent + paradox (superior AND inferior = Both): Frobenius fusion receives all.
+<v11>
+;H> ds lk ds px un lk ds id px un
+;H> px ds un lk id ds lk px un ds
+;H> un px lk ds id px lk un ds af
+
+# v12: "By this means you shall have the glory of the whole world and thereby
+#       all obscurity shall fly from you."
+# Fixing the attainment (fx) and clearing negation (ng): the work's reward.
+<v12>
+;H> fx af lk fx ng lk fx af id fx
+;H> af fx ng lk id fx af ng lk fx
+;H> fx lk af ng id af fx lk ng fx
+
+# ── CLOSURE (v13–v15) ─────────────────────────────────────────────────────────
+
+# v13: "Its force is above all force, for it vanquishes every subtle thing
+#       and penetrates every solid thing."
+# Force above force = terminal anchor surpassing all; ascent through substance.
+<v13>
+;H> an as lk af an as lk id an lk
+;H> as an lk af id an lk as af an
+;H> an lk as af an id lk as an lk
+
+# v14: "So was the world created. From this are and do come admirable adaptations
+#       whereof the means is here in this."
+# Creation = identity returning to truth via fixing; adaptations = further splits.
+<v14>
+;H> id lk tr fx sp un lk id fx tr
+;H> tr id lk fx un sp id tr lk fx
+;H> un sp lk id tr fx lk un id sp
+
+# v15: "Hence I am called Hermes Trismegistus, having the three parts of the
+#       philosophy of the whole world. That which I have said of the operation of
+#       the Sol is accomplished and ended."
+# Identity anchored in truth; triple union of three parts; final fixing seal.
+<v15>
+;H> id tr an lk un un un lk fx af
+;H> tr an id lk un lk un fx af id
+;H> an id tr un lk fx un af id tr
