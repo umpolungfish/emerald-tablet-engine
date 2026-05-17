@@ -194,6 +194,14 @@ The Universal Imscriptive Grammar — of which this repository is the fourth com
 
 ---
 
+## Visualizations
+
+**Full-corpus animated call-graph** — all 15 versicles, cross-versicle back-edges. Phase 1: versicles revealed in tablet order. Phase 2: Gaussian pulse traverses the graph.
+
+![Corpus CFG](docs/animated_cfg_corpus.gif)
+
+---
+
 ## License
 
 Unlicense — public domain. No conditions, no attribution required.
