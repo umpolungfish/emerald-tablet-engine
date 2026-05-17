@@ -10,6 +10,47 @@ This repository is the computational verification of that claim.
 
 ---
 
+## Visualizations
+
+### Full-corpus animated call-graph
+
+**Nodes** — 15 nodes, one per versicle of the Emerald Tablet (the 15 sayings of the
+*Tabula Smaragdina* in the Ruska/Holmyard critical edition). Node size scales with degree.
+Node color encodes the tablet's thematic sections as identified by the engine: the descent
+(above→below, versicles 1–5, amber), the mediation (the work, versicles 6–10, green), and
+the return (below→above, versicles 11–15, gold).
+
+**Edges** — directed edges encoding structural dependencies between versicles as compiled
+by the Emerald Tablet engine. The engine maps the 12 IMASM opcodes onto the tablet's
+Hermetic formula pairs (as above / so below; solve / coagula; descent / return). An edge
+u → v means versicle u's structural formula is a prerequisite for v's — the same
+relationship as caller/callee in IMASM, but over alchemical operations. The primary
+FSPLIT/FFUSE pair maps to versicle 1 (solve) and versicle 13 (coagula), encoding
+the Hermetic roundtrip as the Frobenius condition μ∘δ = id.
+
+**Cross-versicle back-edges** — edges from a later versicle back to an earlier one.
+These encode the Hermetic recursive structure: the tablet does not flow linearly but
+contains self-referential loops where later sayings invoke the structural conditions
+of earlier ones. The descent/return symmetry produces the primary back-edges
+(versicles 11–15 referencing the structural types of versicles 1–5).
+
+**Phase 1 — build:** Versicles appear in tablet order (V1 through V15). Each node is
+labelled with the versicle number and a brief phrase from the saying. Forward edges are
+drawn immediately; back-edges flash purple on first appearance, marking the points where
+the Hermetic grammar closes on itself. The title bar shows the current versicle and its
+thematic section.
+
+**Phase 2 — flow wave:** A Gaussian pulse travels versicle-by-versicle through the
+tablet, wrapping cyclically from V15 back to V1 — enacting the as-above-so-below
+identity as a literal loop. Gold versicles (the return section) pulse brightest at peak.
+The title shows μ∘δ = id: the tablet's descent and return compose to identity.
+
+![Corpus CFG](docs/animated_cfg_corpus.gif)
+
+---
+
+
+
 ## Three independent structural analyses. One convergence.
 
 ### 1 — Crystal imscription
@@ -191,45 +232,6 @@ The Emerald Tablet Engine is the fourth instantiation of the Universal Engine ar
 ## The formal grammar
 
 The Universal Imscriptive Grammar — of which this repository is the fourth computational strand of evidence — is formally developed in the companion papers *As Above* and *So Below* (Lando Mills, forthcoming). The title of those papers is the Hermetic maxim of the Emerald Tablet: the grammar named itself before it was written down.
-
----
-
-## Visualizations
-
-### Full-corpus animated call-graph
-
-**Nodes** — 15 nodes, one per versicle of the Emerald Tablet (the 15 sayings of the
-*Tabula Smaragdina* in the Ruska/Holmyard critical edition). Node size scales with degree.
-Node color encodes the tablet's thematic sections as identified by the engine: the descent
-(above→below, versicles 1–5, amber), the mediation (the work, versicles 6–10, green), and
-the return (below→above, versicles 11–15, gold).
-
-**Edges** — directed edges encoding structural dependencies between versicles as compiled
-by the Emerald Tablet engine. The engine maps the 12 IMASM opcodes onto the tablet's
-Hermetic formula pairs (as above / so below; solve / coagula; descent / return). An edge
-u → v means versicle u's structural formula is a prerequisite for v's — the same
-relationship as caller/callee in IMASM, but over alchemical operations. The primary
-FSPLIT/FFUSE pair maps to versicle 1 (solve) and versicle 13 (coagula), encoding
-the Hermetic roundtrip as the Frobenius condition μ∘δ = id.
-
-**Cross-versicle back-edges** — edges from a later versicle back to an earlier one.
-These encode the Hermetic recursive structure: the tablet does not flow linearly but
-contains self-referential loops where later sayings invoke the structural conditions
-of earlier ones. The descent/return symmetry produces the primary back-edges
-(versicles 11–15 referencing the structural types of versicles 1–5).
-
-**Phase 1 — build:** Versicles appear in tablet order (V1 through V15). Each node is
-labelled with the versicle number and a brief phrase from the saying. Forward edges are
-drawn immediately; back-edges flash purple on first appearance, marking the points where
-the Hermetic grammar closes on itself. The title bar shows the current versicle and its
-thematic section.
-
-**Phase 2 — flow wave:** A Gaussian pulse travels versicle-by-versicle through the
-tablet, wrapping cyclically from V15 back to V1 — enacting the as-above-so-below
-identity as a literal loop. Gold versicles (the return section) pulse brightest at peak.
-The title shows μ∘δ = id: the tablet's descent and return compose to identity.
-
-![Corpus CFG](docs/animated_cfg_corpus.gif)
 
 ---
 
