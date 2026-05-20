@@ -45,7 +45,7 @@ tablet, wrapping cyclically from V15 back to V1 — enacting the as-above-so-bel
 identity as a literal loop. Gold versicles (the return section) pulse brightest at peak.
 The title shows μ∘δ = id: the tablet's descent and return compose to identity.
 
-![Corpus CFG](docs/animated_cfg_corpus.gif)
+![Ra & Apep](docs/ra_apep.gif)
 
 ---
 
