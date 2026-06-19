@@ -17,7 +17,7 @@ Transcription codes (ETFF — Emerald Tablet Folio Format):
   as  ascent  (ascendit, superius)      → AFWD    (morphism →)
   ds  descent (inferius, descendit)     → AREV    (contravariant inversion ←)
   lk  linkage / composition (adaptation, mediatio) → CLINK (composition ∘)
-  id  identity / reflection (sicut, est) → ISCRIB (identity id)
+  id  identity / reflection (sicut, est) → IMSCRIB (identity id)
   sp  separation (separabis, subtile)   → FSPLIT  (Frobenius co-multiplication δ)
   un  union / fusion (recipit, miracula) → FFUSE  (Frobenius multiplication μ)
   af  affirmation (est, integra, vera)  → EVALT   (Lattice: True)
@@ -49,7 +49,7 @@ Primitive-by-primitive:
 
 Bootstrap sequence (Emerald Tablet operational content of "as above, so below"):
   id → ds → sp → as → un → lk → fx → id
-  ISCRIB → AREV → FSPLIT → AFWD → FFUSE → CLINK → IFIX → ISCRIB
+  IMSCRIB → AREV → FSPLIT → AFWD → FFUSE → CLINK → IFIX → IMSCRIB
   The identity (id) descends (ds), separates into components (sp), the components
   ascend (as), fuse (un), compose (lk), are fixed (fx), and return to identity (id):
   this IS μ ∘ δ = id written as procedural assembly.
@@ -84,7 +84,7 @@ PRIMITIVES: dict[str, dict] = {
     'as': {'opcode': 0x2, 'mnemonic': 'AFWD',   'operation': 'Morphism →',                    'family': 'logical'},
     'ds': {'opcode': 0x3, 'mnemonic': 'AREV',   'operation': 'Contravariant inversion ←',     'family': 'logical'},
     'lk': {'opcode': 0x4, 'mnemonic': 'CLINK',  'operation': 'Composition ∘',                 'family': 'logical'},
-    'id': {'opcode': 0x5, 'mnemonic': 'ISCRIB', 'operation': 'Identity id',                   'family': 'logical'},
+    'id': {'opcode': 0x5, 'mnemonic': 'IMSCRIB', 'operation': 'Identity id',                   'family': 'logical'},
     'sp': {'opcode': 0x6, 'mnemonic': 'FSPLIT', 'operation': 'Frobenius co-multiplication δ', 'family': 'frobenius'},
     'un': {'opcode': 0x7, 'mnemonic': 'FFUSE',  'operation': 'Frobenius multiplication μ',    'family': 'frobenius'},
     'af': {'opcode': 0x8, 'mnemonic': 'EVALT',  'operation': 'Lattice: True',                 'family': 'dialetheia'},

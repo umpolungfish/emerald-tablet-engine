@@ -4,7 +4,7 @@ Bootstrap Cycle Explorer — Frobenius loops in the Emerald Tablet corpus.
 
 Bootstrap sequence (ETFF codes):
   id → ds → sp → as → un → lk → fx → id
-  ISCRIB → AREV → FSPLIT → AFWD → FFUSE → CLINK → IFIX → ISCRIB
+  IMSCRIB → AREV → FSPLIT → AFWD → FFUSE → CLINK → IFIX → IMSCRIB
 
 This is the operational content of "as above, so below": the identity descends,
 separates, ascends, fuses, composes, is fixed, and returns to identity — μ ∘ δ = id.
@@ -126,7 +126,7 @@ def main():
     print(f"{'─' * 60}")
     print(f"Total instructions: {len(stream)}")
     print(f"Bootstrap sequence: {' → '.join(BOOTSTRAP_CODES)}")
-    print(f"  (ISCRIB → AREV → FSPLIT → AFWD → FFUSE → CLINK → IFIX)")
+    print(f"  (IMSCRIB → AREV → FSPLIT → AFWD → FFUSE → CLINK → IFIX)")
     print(f"  This IS μ ∘ δ = id written as categorical assembly.")
 
     matrix = build_bigram_matrix(stream)

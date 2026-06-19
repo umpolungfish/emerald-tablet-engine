@@ -1,0 +1,63 @@
+Add decompressed-token CFG pipeline (register-level with semantic split traces)
+
+emerald_tablet_engine/callgraph_tokens.py:
+  - Register-level graph (one node per instruction, same as callgraph.py)
+    with semantic edge decompression per token type:
+    ENGAGR → two split traces: ∅ to next reg + W to next ISCRIB in lookahead
+    ISCRIB → two split traces: src to next reg + ← backpop to next IFIX
+    FSPLIT → δ-split to next two regs (extends existing callgraph.py behaviour)
+    CLINK  → ∘→id to next reg (typed; CLINK_to_IFIX_never_occurs enforced)
+    others → flow to next reg
+  - EDGE_STYLE, TOKEN_FAMILY/TOKEN_COLOR, summary()
+  - ET corpus: 40 nodes, 112 edges; backpop:46 frobenius:24 weighted:7 source:6 seq_clink:7 flow:21 empty:1
+
+programs/plot_cfg_tokens.py:
+  - Document-quality static render (300 dpi PNG)
+  - Fixed layout with ISCRIB at center, ENGAGR/IFIX triangle visible
+  - Legend distinguishes all 7 semantic edge types + corpus layer
+  - Output: docs/cfg_tokens_document.png
+
+programs/animated_cfg_tokens.py:
+  - Phase 1 (build): tokens appear in bootstrap sequence order;
+    ENGAGR flash shows ∅/W bifurcation; ISCRIB flash shows ← backpop
+  - Phase 2 (flow): Gaussian pulse through bootstrap order;
+    semantic out-edges of active token highlighted by type
+  - Output: docs/animated_cfg_tokens.gif  (160 frames, 18fps)
+
+programs/cfg_tokens_3d.py:
+  - Interactive 3D decompressed-token CFG via Plotly; outputs self-contained HTML
+  - 3D spring layout (networkx dim=3); drag to rotate, scroll to zoom
+  - Separate line traces per edge type (∅/W/←/src/δ/∘→id/flow)
+  - Arrow cones at edge midpoints for semantic edge types
+  - Node hover: mnemonic, family, in-degree, in/out edge breakdown
+  - Output: docs/cfg_tokens_3d.html (48 KB, CDN-linked plotly)
+  - plotly added to pyproject.toml dependencies
+
+programs/animated_cfg_tokens_barrel.py:
+  - 3D matplotlib GIF; elev=78° (near-overhead), azim sweeps 0→360° (full rotation)
+  - 3D spring layout; edges coloured by semantic type; depthshaded nodes
+  - 90 frames @ 20fps; output: docs/animated_cfg_tokens_barrel.gif (3.7 MB)
+
+programs/cfg_tokens_3d_barrel.py:
+  - Same graph/traces as cfg_tokens_3d.py; camera at (0.05, 0.05, 2.4)
+    looking straight down Z ("barrel view"); up=(0,1,0)
+  - Output: docs/cfg_tokens_3d_barrel.html (52 KB)
+
+programs/animated_cfg_tokens_top.py:
+  - Same two-phase build+pulse animation as animated_cfg_tokens.py
+  - Uses 3D spring layout with Axes3D fixed at elev=90°, azim=0° (overhead)
+  - Camera never moves; graph never moves; only the pulse wave animates
+  - Same edge colour coding: ∅ grey-dashed, W gold, ← violet, src orange, δ blue
+  - 160 frames @ 18fps; output: docs/animated_cfg_tokens_top.gif (4.3 MB)
+
+programs/cfg_tokens_sidebyside.py:
+  - Loads animated_cfg_tokens.gif (2D) + animated_cfg_tokens_top.gif (3D overhead)
+  - Normalises frame heights, composites panels side-by-side with 6px gap
+  - 140 frames lock-step synced; shorter GIF loops if lengths differ
+  - --speed multiplier (e.g. 0.25 = quarter speed); suffix _slowNx appended to filename
+  - Output: docs/animated_cfg_tokens_sidebyside.gif (10.3 MB, 1580×800)
+  - Output: docs/animated_cfg_tokens_sidebyside_slow4x.gif (10.3 MB, 1580×800, 1/4 speed)
+
+ET corpus stats: 15 versicles · 460 instructions
+Largest component: 40 nodes · 112 edges
+Edge breakdown: backpop:46 frobenius:24 weighted:7 source:6 seq_clink:7 flow:21 empty:1

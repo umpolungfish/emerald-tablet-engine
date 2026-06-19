@@ -94,13 +94,13 @@ def main():
     print(f"Versicles: {len(versicles)}  ·  Total instructions: {result['total_instructions']}")
 
     print(f"\nTop {args.top_n} versicles by Frobenius balance (FSPLIT/FFUSE parity):")
-    print(f"  {'Versicle':8s}  {'Section':12s}  {'FSPLIT':7s}  {'FFUSE':7s}  {'CLINK':7s}  {'ISCRIB':7s}")
+    print(f"  {'Versicle':8s}  {'Section':12s}  {'FSPLIT':7s}  {'FFUSE':7s}  {'CLINK':7s}  {'IMSCRIB':7s}")
     print(f"  {'─' * 60}")
     for v_name, d in top_versicles(versicles, args.top_n):
         sec = section_of_versicle(v_name)
         print(f"  {v_name:8s}  {sec:12s}  "
               f"{d.get('FSPLIT', 0):.3f}    {d.get('FFUSE', 0):.3f}    "
-              f"{d.get('CLINK', 0):.3f}    {d.get('ISCRIB', 0):.3f}")
+              f"{d.get('CLINK', 0):.3f}    {d.get('IMSCRIB', 0):.3f}")
 
     SECTION_NAMES = [name for _, name, _ in SECTIONS]
     section_dists = {s: section_aggregate(versicles, s) for s in SECTION_NAMES}

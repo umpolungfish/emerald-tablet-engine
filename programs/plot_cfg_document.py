@@ -38,7 +38,7 @@ _FAMILY_COLOR: dict[str, str] = {
     "AFWD":    "#f28e2b",
     "AREV":    "#f28e2b",
     "CLINK":   "#f28e2b",
-    "ISCRIB":  "#59a14f",
+    "IMSCRIB":  "#59a14f",
     "IFIX":    "#59a14f",
     "EVALT":   "#e15759",
     "EVALF":   "#e15759",
@@ -51,7 +51,7 @@ _DEFAULT_COLOR = "#cccccc"
 _LEGEND_PATCHES = [
     mpatches.Patch(color="#4e79a7", label="Frobenius (FSPLIT / FFUSE)"),
     mpatches.Patch(color="#f28e2b", label="Morphism (AFWD / AREV / CLINK)"),
-    mpatches.Patch(color="#59a14f", label="Identity / Linear (ISCRIB / IFIX)"),
+    mpatches.Patch(color="#59a14f", label="Identity / Linear (IMSCRIB / IFIX)"),
     mpatches.Patch(color="#e15759", label="Dialetheia (EVALT / EVALF / ENGAGR)"),
     mpatches.Patch(color="#9c9c9c", label="Bootstrap (VINIT / TANCH)"),
 ]
