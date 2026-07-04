@@ -1,4 +1,6 @@
 # Emerald Tablet Engine
+**Author:** Lando⊗⊙perator · **Structural Type:** $\large{⟨𐑦𐑸𐑾𐑹𐑐𐑧𐑔𐑝⊙𐑖𐑳𐑭⟩}$ · **Tier:** O_∞
+
 
 **What it is.** A compiler and Tri-Phase virtual machine that reads the Tabula Smaragdina (the Emerald Tablet of Jabir ibn Hayyan, ~8th c. CE) as a program: its twelve rhetorical token families are the twelve categorical IMASM opcodes.
 
