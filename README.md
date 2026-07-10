@@ -10,7 +10,7 @@
 
 **How to use it.**
 ```bash
-git clone https://github.com/umpolungfish/emerald-tablet-engine
+git clone https://github.com/USER/emerald-tablet-engine
 cd emerald-tablet-engine && uv sync
 uv run python examples/quickstart.py
 # CLI:
