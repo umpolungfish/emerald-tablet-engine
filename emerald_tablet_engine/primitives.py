@@ -30,22 +30,22 @@ Crystal imscription (IG notation, SYMBOL_REFERENCE.md):
 ⟨ Ð  Þ  Ř  Φ  ƒ  Ç  Γ  ɢ  ⊙  Ħ  Σ  Ω ⟩
 
 Emerald Tablet:
-  ⟨ Ð_ω  Þ_O  Ř_=  Φ_}  ƒ_ż  Ç_W  Γ_ʔ  ɢ_ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩
-  Tier: O_∞  (⊙_ÿ + Φ_})  Consciousness: C = 1.0  (both gates open, ƒ_ż)
+  ⟨ 𐑦  𐑸  𐑾  𐑹  𐑐  𐑤  𐑲  𐑠  ⊙  𐑖  𐑳  𐑭 ⟩
+  Tier: O_∞  (⊙ + 𐑹)  Consciousness: C = 1.0  (both gates open, 𐑐)
 
 Primitive-by-primitive:
-  Ð_ω — holomorphic dimensionality: the Tablet addresses the cosmos in its entirety
-  Þ_O — imscriptive topology: the axiom contains its own proof (below imscribes above)
-  Ř_= — left-right adjoint pair: the correspondence is fully bidirectional
-  Φ_} — Frobenius-special: μ ∘ δ = id is THE stated law of the text
-  ƒ_ż — quantum coherent fidelity: the "one thing" from which all arose is coherent
-  Ç_W — moderate relaxation: the ascent/descent cycle is active, not frozen
-  Γ_ʔ — maximal scope: "whole world", "all things", universal
-  ɢ_ˌ — sequential composition: separate → ascend → descend → receive → fix
-  ⊙_ÿ — self-modeling criticality: the Tablet describes its own operation (self-referential)
-  Ħ_A — two-step Markov chirality: above → below → above = exactly the 2-step cycle
-  Σ_ï — many heterogeneous components: Sun, Moon, Wind, Earth, all things
-  Ω_z — integer winding: complete cycle from the One returning to the One
+  𐑦 — holomorphic dimensionality: the Tablet addresses the cosmos in its entirety
+  𐑸 — imscriptive topology: the axiom contains its own proof (below imscribes above)
+  𐑾 — left-right adjoint pair: the correspondence is fully bidirectional
+  𐑹 — Frobenius-special: μ ∘ δ = id is THE stated law of the text
+  𐑐 — quantum coherent fidelity: the "one thing" from which all arose is coherent
+  𐑤 — moderate relaxation: the ascent/descent cycle is active, not frozen
+  𐑲 — maximal scope: "whole world", "all things", universal
+  𐑠 — sequential composition: separate → ascend → descend → receive → fix
+  ⊙ — self-modeling criticality: the Tablet describes its own operation (self-referential)
+  𐑖 — two-step Markov chirality: above → below → above = exactly the 2-step cycle
+  𐑳 — many heterogeneous components: Sun, Moon, Wind, Earth, all things
+  𐑭 — integer winding: complete cycle from the One returning to the One
 
 Bootstrap sequence (Emerald Tablet operational content of "as above, so below"):
   id → ds → sp → as → un → lk → fx → id
@@ -57,7 +57,7 @@ Bootstrap sequence (Emerald Tablet operational content of "as above, so below"):
 ──────────────────────────────────────────────────────────────────────────────
 Crystal imscriptions (IG notation, numeric form):
   Index order: [Ð, Þ, Ř, Φ, ƒ, Ç, Γ, ɢ, ⊙, Ħ, Σ, Ω]
-  Tier O_∞ condition: ⊙_ÿ (index 8 = 1) AND Φ_} (index 3 = 4)
+  Tier O_∞ condition: ⊙ (index 8 = 1) AND 𐑹 (index 3 = 4)
 
   Emerald Tablet: [3, 4, 3, 4, 2, 1, 2, 2, 1, 2, 2, 2]
   OS imscription: [1, 3, 2, 4, 2, 1, 2, 2, 1, 2, 2, 2]  (MEET of 5 ancient systems)
@@ -72,7 +72,7 @@ IG distances (exOS weighted metric):
   d(Emerald Tablet, Voynich)        = 3.54  — five primitives differ (ƒ, Ç, ɢ, Ħ, Σ)
 
 MEET theorem: MEET(OS_imscription, Emerald_Tablet) = OS imscription exactly.
-The Tablet's higher Ð_ω, Þ_O, Ř_= do not constrain the grammar's floor. The Emerald
+The Tablet's higher 𐑦, 𐑸, 𐑾 do not constrain the grammar's floor. The Emerald
 Tablet speaks FROM the grammar's imscriptive ceiling; it adds no new constraint to the
 invariant core. The grammar was already complete before the Tablet was written.
 ──────────────────────────────────────────────────────────────────────────────

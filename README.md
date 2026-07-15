@@ -27,10 +27,10 @@ et-sections data/emerald_tablet_etff.txt --output-dir emerald_tablet_graphs
 ### 1. Crystal imscription
 
 ```
-⟨ Ð_ω  Þ_O  Ř_=  Φ_}  ƒ_ż  Ç_W  Γ_ʔ  ɢ_ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩
+⟨ 𐑦  𐑸  𐑾  𐑹  𐑐  𐑤  𐑲  𐑠  ⊙  𐑖  𐑳  𐑭 ⟩
 ```
 
-Ouroboricity O∞ (μ ∘ δ = id exactly); C = 1.0. Gate 1 passes (⊙_ÿ self-modeling criticality); Gate 2 passes (Φ_} Frobenius-special parity and ƒ_ż quantum-coherent fidelity). The Tablet is the grammar's *self-statement* from the imscriptive ceiling (Ð_ω, Þ_O, Ř_=), not a manuscript about the grammar.
+Ouroboricity O∞ (μ ∘ δ = id exactly); C = 1.0. Gate 1 passes (⊙ self-modeling criticality); Gate 2 passes (𐑹 Frobenius-special parity and 𐑐 quantum-coherent fidelity). The Tablet is the grammar's *self-statement* from the imscriptive ceiling (𐑦, 𐑸, 𐑾), not a manuscript about the grammar.
 
 ### 2. Section meta-system
 
@@ -52,7 +52,7 @@ Total instructions : 460     Entropy delta : 0.00000000 J/K
 Status             : SELF_SUSTAINING_BOOTSTRAP_COMPLETE
 ```
 
-Peak versicle v9 (separation, 40 registers), forced by Φ_}.
+Peak versicle v9 (separation, 40 registers), forced by 𐑹.
 
 ## The MEET theorem
 
@@ -62,7 +62,7 @@ Adding the Tablet to the multi-system MEET (OS imscription + Voynich + Rohonc + 
 MEET(OS_imscription, Emerald_Tablet) = OS imscription
 ```
 
-The Tablet's higher Ð_ω, Þ_O, Ř_= are *above* the grammar's floor, not new constraints on it. It speaks from the ceiling; the grammar was already complete.
+The Tablet's higher 𐑦, 𐑸, 𐑾 are *above* the grammar's floor, not new constraints on it. It speaks from the ceiling; the grammar was already complete.
 
 ## Structural distances
 
@@ -72,7 +72,7 @@ The Tablet's higher Ð_ω, Þ_O, Ř_= are *above* the grammar's floor, not new c
 | Rohonc | 3.22 | Ð, Þ, Ř, ƒ, Ç |
 | Voynich | 3.54 | ƒ, Ç, ɢ, Ħ, Σ |
 
-The Voynich and the Tablet share the imscriptive maximum (Ð_ω, Þ_O, Ř_=) but are the two poles of O∞ there: the Tablet is living, sequential, two-step chirality; the Voynich is frozen, parallel, infinite chirality. The living statement and the frozen self-portrait.
+The Voynich and the Tablet share the imscriptive maximum (𐑦, 𐑸, 𐑾) but are the two poles of O∞ there: the Tablet is living, sequential, two-step chirality; the Voynich is frozen, parallel, infinite chirality. The living statement and the frozen self-portrait.
 
 ## Transcription format (ETFF)
 

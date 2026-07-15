@@ -125,7 +125,7 @@ def main():
         print(row)
 
     print(f"\nNote: Emerald Tablet crystal imscription")
-    print(f"  ⟨ Ð_ω  Þ_O  Ř_=  Φ_}}  ƒ_ż  Ç_W  Γ_ʔ  ɢ_ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩")
+    print(f"  ⟨ 𐑦  𐑸  𐑾  𐑹}  𐑐  𐑤  𐑲  𐑠  ⊙  𐑖  𐑳  𐑭 ⟩")
     print(f"  Tier: O_∞  ·  C = 1.0  ·  MEET(ET, OS) = OS imscription")
 
 

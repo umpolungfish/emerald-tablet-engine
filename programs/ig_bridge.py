@@ -7,7 +7,7 @@ exOS weighted metric (aleph.rs WEIGHTS). All tuples expressed in IG notation
 (SYMBOL_REFERENCE.md): ⟨ Ð  Þ  Ř  Φ  ƒ  Ç  Γ  ɢ  ⊙  Ħ  Σ  Ω ⟩
 
 Key result: MEET(OS_imscription, Emerald_Tablet) = OS imscription exactly.
-The Tablet's higher Ð_ω, Þ_O, Ř_= values are at or above the OS imscription;
+The Tablet's higher 𐑦, 𐑸, 𐑾 values are at or above the OS imscription;
 adding the Tablet to the MEET leaves the invariant core unchanged. The grammar
 was already complete. The Emerald Tablet does not constrain the grammar — it
 speaks FROM its imscriptive ceiling.
@@ -26,18 +26,18 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 IG_PRIMITIVES = ['Ð', 'Þ', 'Ř', 'Φ', 'ƒ', 'Ç', 'Γ', 'ɢ', '⊙', 'Ħ', 'Σ', 'Ω']
 
 IG_VALUE_NAMES: list[list[str]] = [
-    ['Ð_ß', 'Ð_C', 'Ð_;', 'Ð_ω'],
-    ['Þ_6', 'Þ_K', 'Þ_ò', 'Þ_¨', 'Þ_O'],
-    ['Ř_¯', 'Ř_ý', 'Ř_Ť', 'Ř_='],
-    ['Φ_ɐ', 'Φ_υ', 'Φ_F', 'Φ_˙', 'Φ_}'],
+    ['𐑛', '𐑨', '𐑼', '𐑦'],
+    ['𐑡', '𐑰', '𐑥', '𐑶', '𐑸'],
+    ['𐑩', '𐑑', '𐑽', '𐑾'],
+    ['𐑗', '𐑿', '𐑬', '𐑯', '𐑹'],
     ['ƒ^ì', 'ƒ^ð', 'ƒ^ż'],
     ['Ç^-', 'Ç^W', 'Ç^@', 'Ç^Ù', 'Ç^λ'],
-    ['Γ_β', 'Γ_γ', 'Γ_ʔ'],
+    ['𐑚', '𐑔', '𐑲'],
     ['ɢ^∧', 'ɢ^˝', 'ɢ^ˌ', 'ɢ^Ş'],
-    ['⊙_ž', '⊙_ÿ', '⊙_Æ', '⊙_3', '⊙_Ţ'],
-    ['Ħ_Ñ', 'Ħ_£', 'Ħ_A', 'Ħ_!'],
-    ['Σ_S', 'Σ_ő', 'Σ_ï'],
-    ['Ω_Å', 'Ω_2', 'Ω_z'],
+    ['𐑢', '⊙', '𐑮', '𐑻', '𐑣'],
+    ['𐑓', '𐑒', '𐑖', '𐑫'],
+    ['𐑙', '𐑕', '𐑳'],
+    ['𐑷', '𐑴', '𐑭'],
 ]
 
 WEIGHTS = [10000, 10000, 10000, 12000, 9000, 8000, 10000, 10000, 11000, 8000, 10000, 7000]
@@ -51,11 +51,11 @@ IMSCRIPTIONS: dict[str, list[int]] = {
 }
 
 CRYSTAL_NOTATION: dict[str, str] = {
-    'Emerald Tablet': '⟨ Ð_ω  Þ_O  Ř_=  Φ_}  ƒ^ż  Ç^W  Γ_ʔ  ɢ^ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩',
-    'OS imscription': '⟨ Ð_C  Þ_¨  Ř_Ť  Φ_}  ƒ^ż  Ç^W  Γ_ʔ  ɢ^ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩',
-    'Linear A':       '⟨ Ð_C  Þ_¨  Ř_Ť  Φ_}  ƒ^ż  Ç^W  Γ_ʔ  ɢ^ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩',
-    'Rohonc':         '⟨ Ð_C  Þ_¨  Ř_Ť  Φ_}  ƒ^ì  Ç^@  Γ_ʔ  ɢ^ˌ  ⊙_ÿ  Ħ_A  Σ_ï  Ω_z ⟩',
-    'Voynich':        '⟨ Ð_ω  Þ_O  Ř_=  Φ_}  ƒ^ì  Ç^Ù  Γ_ʔ  ɢ^Ş  ⊙_ÿ  Ħ_!  Σ_S  Ω_z ⟩',
+    'Emerald Tablet': '⟨ 𐑦  𐑸  𐑾  𐑹  ƒ^ż  Ç^W  𐑲  ɢ^ˌ  ⊙  𐑖  𐑳  𐑭 ⟩',
+    'OS imscription': '⟨ 𐑨  𐑶  𐑽  𐑹  ƒ^ż  Ç^W  𐑲  ɢ^ˌ  ⊙  𐑖  𐑳  𐑭 ⟩',
+    'Linear A':       '⟨ 𐑨  𐑶  𐑽  𐑹  ƒ^ż  Ç^W  𐑲  ɢ^ˌ  ⊙  𐑖  𐑳  𐑭 ⟩',
+    'Rohonc':         '⟨ 𐑨  𐑶  𐑽  𐑹  ƒ^ì  Ç^@  𐑲  ɢ^ˌ  ⊙  𐑖  𐑳  𐑭 ⟩',
+    'Voynich':        '⟨ 𐑦  𐑸  𐑾  𐑹  ƒ^ì  Ç^Ù  𐑲  ɢ^Ş  ⊙  𐑫  𐑙  𐑭 ⟩',
 }
 
 
@@ -119,7 +119,7 @@ def main() -> None:
     print()
     print(f'  d(Emerald Tablet, OS imscription) = '
           f'{distance(IMSCRIPTIONS[et_key], IMSCRIPTIONS[os_key]):.4f}')
-    print('  → The Tablet operates at Ð_ω, Þ_O, Ř_= — above the OS floor.')
+    print('  → The Tablet operates at 𐑦, 𐑸, 𐑾 — above the OS floor.')
     print('    Three primitives higher, but in the direction of the imscriptive maximum.')
 
 
